@@ -1,6 +1,6 @@
 $(document).ready(function () {
   var buttons = $(".Topic-buttons");
-  var topics = ["The-Office", "Silicon-Valley", "Friends", "Westworld"];
+  var topics = ["The Office", "Silicon Valley", "Friends", "Westworld"];
   var apikey = "lRptSUFqDHvNoT6rMaGYzgArF9jGAQWp"
 
 
@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     for (var i = 0; i < topics.length; i++) {
       var a = $("<button>");
-      a.addClass("ml-1 btn btn-info");
+      a.addClass("ml-1 btn btn-primary");
       a.attr("data-person", topics[i]);
       a.append(topics[i]);
       buttons.append(a);

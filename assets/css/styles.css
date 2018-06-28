@@ -7,6 +7,13 @@ p {
 	color: white;
 }
 
+.gif {
+	margin: 5px;
+}
+
+.btn{
+	background-color:transparent; 
+}
 
 .container{
 	margin-top: 10vh;
