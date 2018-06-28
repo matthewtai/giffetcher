@@ -11,8 +11,12 @@ p {
 	margin: 5px;
 }
 
+
+
 .btn{
-	background-color:transparent; 
+
+	margin: 5px;
+	padding: 5px;
 }
 
 .container{
