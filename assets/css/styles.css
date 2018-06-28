@@ -1,4 +1,4 @@
-body{
+body {
 	background-image: url(../images/navy_blue.png);
 	text-align: center;
 }
@@ -8,59 +8,67 @@ p {
 }
 
 .gif {
-	margin: 5px;
+	margin-left: 20px;
+	text-align: center;
 }
 
-
-
-.btn{
-
+.btn {
 	margin: 5px;
 	padding: 5px;
 }
 
-.container{
+.container {
 	margin-top: 10vh;
 	margin-bottom: 10vh;
 }
 
-#animation{
+#animation {
 	text-align: center;
 	animation: fadein 4s;
-	-moz-animation: fadein 4s; /* Firefox */
-	-webkit-animation: fadein 4s; /* Safari and Chrome */
-	-o-animation: fadein 4s; /* Opera */
+	-moz-animation: fadein 4s;
+	/* Firefox */
+	-webkit-animation: fadein 4s;
+	/* Safari and Chrome */
+	-o-animation: fadein 4s;
+	/* Opera */
 }
+
 @keyframes fadein {
 	from {
-			opacity:0;
+		opacity: 0;
 	}
 	to {
-			opacity:1;
+		opacity: 1;
 	}
 }
-@-moz-keyframes fadein { /* Firefox */
+
+@-moz-keyframes fadein {
+	/* Firefox */
 	from {
-			opacity:0;
+		opacity: 0;
 	}
 	to {
-			opacity:1;
+		opacity: 1;
 	}
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+
+@-webkit-keyframes fadein {
+	/* Safari and Chrome */
 	from {
-			opacity:0;
+		opacity: 0;
 	}
 	to {
-			opacity:1;
+		opacity: 1;
 	}
 }
-@-o-keyframes fadein { /* Opera */
+
+@-o-keyframes fadein {
+	/* Opera */
 	from {
-			opacity:0;
+		opacity: 0;
 	}
 	to {
-			opacity: 1;
+		opacity: 1;
 	}
 }
 
@@ -74,4 +82,5 @@ footer {
 	width: 100%;
 	margin-top: 20px;
 	bottom: 0;
-	height:50px;}
+	height: 50px;
+}
