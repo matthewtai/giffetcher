@@ -1,0 +1,1 @@
+# GIF Fetcher powered by GIPHY API
